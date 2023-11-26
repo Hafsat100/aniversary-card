@@ -60,7 +60,7 @@ body{
 @media screen and (max-width: 440px) {
     .anniversary{
         font-family: 'Playfair Display', serif;
-        font-size: 56px;
+        font-size: 44px;
         font-weight: 700;
     }
     #button{
@@ -68,8 +68,21 @@ body{
         background-color: rgb(245, 143, 158);
         font-weight: 700;
         border-radius: 8px;
+        height: 40px;
         border-color: rgb(165, 42, 63);
         box-shadow: 2px 2px 30px 3px rgb(107, 97, 97);
+        margin-top: -24px;
+    }
+    .content{
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-basis: 80%;
+        /* background-color: aqua; */
+        padding: 0 24px
     }
     
 }
